@@ -1,7 +1,7 @@
 const newman = require('newman');
 
 newman.run({
-    collection: require('./collection/Dmoney-API.json'),
+    collection: require('./collection/Dmoney-API.json'),   //added comment
     reporters: 'htmlextra',
     iterationCount: 1,
     reporter: {
